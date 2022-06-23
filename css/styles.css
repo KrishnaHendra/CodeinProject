@@ -1,0 +1,180 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+}
+.margin-0{
+  margin: 0;
+}
+.padding-0{
+  padding: 0;
+}
+ul {
+    height: 90px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0 20px;
+    overflow: hidden;
+    background-color: #f5f5f5;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    line-height: 45px;
+    height: 45px;
+    display: block;
+    color: white;
+    text-align: center;
+    margin: 20px 16px;
+    text-decoration: none;
+  }
+  
+  /* li a:hover:not(.active) {
+    background-color: #111;
+  } */
+  
+  .active {
+    background-color: #04AA6D;
+  }
+  .logo {
+    padding-top: 0px;
+  }
+  .logo a {
+    margin: 0 !important;
+  }
+
+.menu-btn{
+    border-radius: 20px;
+    width: 100px;
+    text-align: center;
+    background: white;
+    border: 1px solid #41AFFF;
+    color: #41AFFF;
+} 
+
+#nav-search{
+    width: 400px;
+    border: 1px solid #919191;
+    border-radius: 20px;
+    padding: 15px;
+}
+.right-menu{
+    float: right;
+}
+.active-btn{
+    border-radius: 20px;
+    width: 100px;
+    text-align: center;
+    background: #0094FF;
+    border: 1px solid #0094FF;
+    color: white; 
+}
+#img-banner{
+    width: 100%;
+}
+
+/* Start Row */
+
+.column {
+    background: white;
+    float: left;
+    width: 33.33%;
+    padding: 40px;
+    height: 360px; /* Should be removed. Only for demonstration */
+  }
+
+.column-4 {
+  text-align: center;
+    background: white;
+    float: left;
+    width: 25%;
+    padding: 40px;
+    height: 360px; /* Should be removed. Only for demonstration */
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    margin-top: 30px;
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+
+  .card {
+    /* Add shadows to create the "card" effect */
+    background-color: #0085FF;
+    /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
+    transition: 0.3s;
+    border: 1px solid #0085FF;
+    border-radius: 10px;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  /* Add some padding inside the card container */
+  .container {
+    padding: 2px 16px;
+    background-color: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  } 
+
+  .card-header{ 
+    color: white;
+    font-size: 20px;
+    background-color: #0085FF;
+    padding:  15px;
+  }
+
+  .img-column{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+
+  .row-title{
+    height: 80px;
+    width: 100%;
+    line-height: 80px;
+    text-align: center;
+  }
+
+  .text-blue{
+    color: #0085FF;
+  }
+
+  .column-4 img{
+    margin-bottom: 10px;
+    width: auto;
+    height: 180px;
+  }
+
+  .column-4 h2{
+    font-size: 20px;
+  }
+  .column-4 p{
+    font-size: 16px;
+    text-align: justify;
+    font-style: italic;
+  }
+
+  .footer{
+    margin-top: 60px;
+    color: white;
+    font-size: 20px;
+    background-color: #0085FF;
+    line-height: 90px;
+    height: 90px;
+    width: 100%;
+    text-align: center;
+  }
+
