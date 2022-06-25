@@ -16,7 +16,7 @@ ul {
     margin: 0;
     padding: 0 20px;
     overflow: hidden;
-    background-color: #f5f5f5;
+    background-color: #f8f8f8;
   }
   
   li {
@@ -58,7 +58,7 @@ ul {
 
 #nav-search{
     width: 400px;
-    border: 1px solid #919191;
+    border: 1px solid #909090;
     border-radius: 20px;
     padding: 15px;
 }
@@ -87,6 +87,14 @@ ul {
     height: 360px; /* Should be removed. Only for demonstration */
   }
 
+.course-column {
+    background: white;
+    float: left;
+    width: 25%;
+    padding: 0 25px;
+    height: 360px; /* Should be removed. Only for demonstration */
+  }
+
 .column-4 {
   text-align: center;
     background: white;
@@ -106,11 +114,24 @@ ul {
 
 
   .card {
-    /* Add shadows to create the "card" effect */
     background-color: #0085FF;
     /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
     transition: 0.3s;
     border: 1px solid #0085FF;
+    border-radius: 10px;
+  }
+  .card-payment {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border: 1px solid #e5e5e5;
+    border-radius: 10px;
+  }
+
+  .card-course {
+    background-color: #e5e5e5;
+    /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
+    transition: 0.3s;
+    border: 1px solid #e5e5e5;
     border-radius: 10px;
   }
   
@@ -127,11 +148,36 @@ ul {
     border-bottom-right-radius: 10px;
   } 
 
+  .container-payment {
+    padding: 25px 35px;
+    background-color: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  } 
+
+  .container-course {
+    text-align: center;
+    padding: 2px 16px;
+    background-color: #f5f5f5;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  } 
+
   .card-header{ 
     color: white;
     font-size: 20px;
     background-color: #0085FF;
     padding:  15px;
+  }
+
+  .card-header-payment{ 
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #DCE8EB;
+    padding: 20px 35px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
   }
 
   .img-column{
@@ -140,6 +186,7 @@ ul {
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 0px;
   }
+
 
   .row-title{
     height: 80px;
@@ -177,4 +224,192 @@ ul {
     width: 100%;
     text-align: center;
   }
+
+  .title-course{
+    margin: 0 0 8px 0;
+    font-size: 1.4em;
+  }
+
+  .container-course p{
+    font-size: 15px;
+  }
+
+  .info-course{
+    text-align: left;
+    font-size: 15px;
+  }
+
+  .info-course p{
+    color: grey;
+    margin-bottom: 7px;
+    margin-top: 7px;
+  }
+
+  .button-course{
+    width: 100%;
+    margin: 30px 0 15px 0;
+  }
+
+  .btn-course-detail{
+    width: 45%;
+    padding: 8px;
+    margin-right: 5px;
+    background: none;
+    border: 1px solid #0094FF;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .btn-course-detail:hover{
+    background: #0094FF;
+    border: 1px solid #0094FF;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .btn-course-choose{
+    width: 45%;
+    padding: 8px;
+    margin-left: 5px;
+    background-color: #0094FF;
+    border: 1px solid #0094FF;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .btn-course-choose:hover{
+    background: white;
+    border-color: 1px solid #0094FF;
+    color: black;
+    cursor: pointer;
+  }
+
+  .nav-link{
+    color: grey;
+    font-size: 25px;
+  }
+  .profile-image{
+    margin-right: 8px;
+  }
+  .profile-name{
+    color: #0094FF;
+    font-size: 18px;
+    margin-left: 0;
+  }
+
+  .row-payment{
+    width: 100%;
+    line-height: 120px;
+    height: 120px;
+    vertical-align: middle;
+    padding: 0 25px;
+    background: #f8f8f8;
+  }
+  .title-row-payment h2{
+    margin: 0;
+  }
+  .title-row-payment{
+    width: 20%;
+    float: left;
+  }
+  .onboarding-payment{
+    width: 80%;
+    float: right;
+    text-align: center;
+  }
+  .wizard-payment-active{
+    padding: 15px 20px;
+    background-color: #2675BD;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 10px;
+    margin: 0 15px;
+  }
+  .wizard-payment-inactive{
+    padding: 15px 20px;
+    background-color: #e5e5e5;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 10px;
+    margin: 0 15px;
+  }
+  .wizard-payment-inactive:hover{
+    background-color: #2675BD;
+    color: white;
+  }
+  .text-grey{
+    color: grey;
+  }
+  .payment-content{
+    width: 100%;
+    padding: 25px;
+  }
+  .left-payment-content{
+    width: 60%;
+    float: left;
+  }
+  .right-payment-content{
+    width: 40%;
+    float: right;
+  }
+  .my-25{
+    margin: 0 25px;
+  }
+  .form-input-payment{
+    margin-top: 7px;
+    border: 1px solid #2675BD;
+    padding: 10px;
+    width: 100%;
+  }
+  .form-input-payment:focus-visible{
+    border: 1px solid grey !important;
+  }
+  .form-input-payment:focus{
+    border: 1px solid grey !important;
+  }
+  .form-input-payment:active{
+    border: 1px solid grey !important;
+  }
+  
+  .mt-input{
+    margin-top: 15px;
+  }
+  .my-title{
+    margin: 15px 0;
+  }
+  .price-title{
+    color: #D62141;
+  }
+
+  .input-group {
+    margin-top: 10px;
+    display: flex;
+    align-content: stretch;
+  }
+  
+  .input-group > input {
+    flex: 1 0 auto;
+    padding: 10px;
+    border: 1px solid #A39999;
+    background: #F5F0F0;
+  }
+
+  .btn-promo{
+    background: #D9D9D9;
+    border: 1px solid #A39999;
+  }
+  .btn-fix-pay{
+    background: #0085FF;
+    color: white;
+    margin: 20px 25px 50px 25px;
+    padding: 15px;
+    border: 1px solid #0085FF;
+    width: 91%;
+    border-radius: 10px;
+  }
+
+  
 
