@@ -32,11 +32,6 @@ ul {
     margin: 20px 16px;
     text-decoration: none;
   }
-  
-  /* li a:hover:not(.active) {
-    background-color: #111;
-  } */
-  
   .active {
     background-color: #04AA6D;
   }
@@ -57,6 +52,7 @@ ul {
 } 
 
 #nav-search{
+  height: 47px;
     width: 400px;
     border: 1px solid #909090;
     border-radius: 20px;
@@ -303,7 +299,7 @@ ul {
     line-height: 120px;
     height: 120px;
     vertical-align: middle;
-    padding: 0 25px;
+    padding: 0 80px;
     background: #f8f8f8;
   }
   .title-row-payment h2{
@@ -345,7 +341,7 @@ ul {
   }
   .payment-content{
     width: 100%;
-    padding: 25px;
+    padding: 25px 80px;
   }
   .left-payment-content{
     width: 60%;

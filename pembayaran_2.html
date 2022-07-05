@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/custom.css">
+
+    <title>Code.in - Pembayaran 2</title>
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="javascript:void(0)">
+            <img src="img/codein_logo.png" height="90" alt="logo">
+        </a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navb">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navb">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link btn-menu" href="javascript:void(0)">
+                Menu
+              </a>
+            </li>
+            <li class="nav-item ml-4">
+              <input type="text" placeholder="cari" id="nav-search"> 
+            </li>
+          </ul>
+          <a href="javascript-void" class="icon-right"><i class="fa fa-bell"></i> </a>
+          <a href="javascript-void" class="icon-right"><i class="fa fa-headset"></i> </a>
+          <div class="profile">
+              <img src="img/user.png" alt="user"> Muhammad Ibnu
+          </div>
+        </div>
+      </nav> 
+
+
+      <div class="row m-0 row-payment">
+        <div class="col-4 my-auto">
+            <h3>Payment Method</h3>
+        </div>
+        <div class="col-6 text-center my-auto">
+           <a href="javascript:void(0)" class="p-2 btn btn-radius-payment btn-outline-primary bg-white">1. Payment Information</a> 
+           <a href="javascript:void(0)" class="p-2 btn btn-radius-payment btn-primary ml-3">2. Payment Method</a> 
+        </div>
+      </div>
+
+      <div class="row m-0 payment-content">
+       <div class="col-8">
+            <div class="card">
+                <div class="card-header header-payment-method bg-codein my-auto py-4 font-weight-bold">
+                    <div class="row">
+                        <div class="col">
+                            Kios
+                        </div>
+                        <div class="col text-right">
+                            <i class="fa fa-caret-up" style="font-size: 20px;"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body py-4">
+                    <input type="radio" id="indomaret" name="fav_language" value="indomaret" checked>
+                    <label for="indomaret" class="mb-0"><img src="img/indomaret.png" alt="payment-indomaret" height="35px"></label><br>     
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header header-payment-method bg-codein my-auto py-4 font-weight-bold">
+                    <div class="row">
+                        <div class="col">
+                            E-Wallet
+                        </div>
+                        <div class="col text-right">
+                            <i class="fa fa-caret-down" style="font-size: 20px;"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header header-payment-method bg-codein my-auto py-4 font-weight-bold">
+                    <div class="row">
+                        <div class="col">
+                            Bank Transfer
+                        </div>
+                        <div class="col text-right">
+                            <i class="fa fa-caret-down" style="font-size: 20px;"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header header-payment-method bg-codein my-auto py-4 font-weight-bold">
+                    <div class="row">
+                        <div class="col">
+                            Credit Card
+                        </div>
+                        <div class="col text-right">
+                            <i class="fa fa-caret-down" style="font-size: 20px;"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+       </div> 
+       <div class="col-4">
+            <div class="card">
+                <div class="card-header py-4 bg-codein font-weight-bold">
+                    Summary
+                </div>
+                <div class="card-body">
+                    <i class="fa fa-bookmark"></i> Subscription Plan <br>
+                    <b>Programming Foundation</b>
+                    <hr>
+                    <i class="fa fa-credit-card"></i> Payment Method <br>
+                    <b>Indomaret</b>
+                    <hr>
+                    <i class="fa fa-shopping-cart"></i> Total <br>
+                    <b class="text-danger">Rp 100.000</b>                
+                </div>
+            </div>
+            <a href="pembayaran_3.html" class="btn btn-block btn-payment mt-3">Complete Payment</a>
+       </div> 
+      </div>
+
+    <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc" crossorigin="anonymous"></script>
+  </body>
+</html>
